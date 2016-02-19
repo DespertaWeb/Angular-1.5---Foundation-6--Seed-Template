@@ -1,4 +1,4 @@
-# Foundation for Sites Template
+# Foundation 6 Starter Template
 
 
 ### Manual Setup
@@ -6,7 +6,7 @@
 To manually set up the template, first download it with Git:
 
 ```bash
-git clone https://github.com/zurb/foundation-sites-template projectname
+git clone https://github.com/DespertaWeb/Foundation-6-Starter-Template.git
 ```
 
 Then open the folder in your command line, and install the needed dependencies:
