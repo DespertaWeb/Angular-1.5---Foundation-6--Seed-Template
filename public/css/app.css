@@ -1234,14 +1234,14 @@ code {
   font-family: Consolas, "Liberation Mono", Courier, monospace;
   font-weight: normal;
   color: #0a0a0a;
-  background-color: #e6e6e6;
+  background-color: red;
   border: 1px solid #cacaca;
   padding: 0.125rem 0.3125rem 0.0625rem; }
 
 kbd {
   padding: 0.125rem 0.25rem 0;
   margin: 0;
-  background-color: #e6e6e6;
+  background-color: red;
   color: #0a0a0a;
   font-family: Consolas, "Liberation Mono", Courier, monospace; }
 
@@ -1523,7 +1523,7 @@ textarea {
 input:disabled, input[readonly],
 textarea:disabled,
 textarea[readonly] {
-  background-color: #e6e6e6;
+  background-color: red;
   cursor: default; }
 
 [type="submit"],
@@ -1587,7 +1587,7 @@ label {
   width: 1%;
   height: 100%;
   padding: 0 1rem;
-  background: #e6e6e6;
+  background: red;
   color: #0a0a0a;
   border: 1px solid #cacaca; }
   .input-group-label:first-child {
@@ -1642,7 +1642,7 @@ select {
     select {
       background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAYCAYAAACbU/80AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAIpJREFUeNrEkckNgDAMBBfRkEt0ObRBBdsGXUDgmQfK4XhH2m8czQAAy27R3tsw4Qfe2x8uOO6oYLb6GlOor3GF+swURAOmUJ+RwtEJs9WvTGEYxBXqI1MQAZhCfUQKRzDMVj+TwrAIV6jvSUEkYAr1LSkcyTBb/V+KYfX7xAeusq3sLDtGH3kEGACPWIflNZfhRQAAAABJRU5ErkJggg=="); } }
   select:disabled {
-    background-color: #e6e6e6;
+    background-color: red;
     cursor: default; }
   select::-ms-expand {
     display: none; }
@@ -1772,7 +1772,7 @@ select {
 .accordion {
   list-style-type: none;
   background: #fefefe;
-  border: 1px solid #e6e6e6;
+  border: 1px solid red;
   border-radius: 0;
   margin-left: 0; }
 
@@ -1783,9 +1783,9 @@ select {
   font-size: 0.75rem;
   color: #2199e8;
   position: relative;
-  border-bottom: 1px solid #e6e6e6; }
+  border-bottom: 1px solid red; }
   .accordion-title:hover, .accordion-title:focus {
-    background-color: #e6e6e6; }
+    background-color: red; }
   :last-child > .accordion-title {
     border-bottom-width: 0; }
   .accordion-title::before {
@@ -1800,7 +1800,7 @@ select {
 .accordion-content {
   padding: 1.25rem 1rem;
   display: none;
-  border-bottom: 1px solid #e6e6e6; }
+  border-bottom: 1px solid red; }
 
 .badge {
   display: inline-block;
@@ -2343,7 +2343,7 @@ body {
 
 .off-canvas {
   position: absolute;
-  background: #e6e6e6;
+  background: red;
   z-index: -1;
   max-height: 100%;
   overflow-y: auto;
@@ -2484,7 +2484,7 @@ body {
     border-radius: 0; }
     .pagination a:hover,
     .pagination button:hover {
-      background: #e6e6e6; }
+      background: red; }
   .pagination [aria-label="previous"]::before {
     content: '«';
     display: inline-block;
@@ -2550,7 +2550,7 @@ body {
   height: 0.5rem;
   margin-top: 1.25rem;
   margin-bottom: 2.25rem;
-  background-color: #e6e6e6;
+  background-color: red;
   cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -2870,7 +2870,7 @@ table.hover tr:nth-of-type(even):hover {
   margin: 0;
   list-style-type: none;
   background: #fefefe;
-  border: 1px solid #e6e6e6; }
+  border: 1px solid red; }
   .tabs::before, .tabs::after {
     content: ' ';
     display: table; }
@@ -2900,15 +2900,15 @@ table.hover tr:nth-of-type(even):hover {
     font-size: 12px;
     color: #2199e8; }
     .tabs-title > a:hover, .tabs-title > a:focus, .tabs-title > a[aria-selected="true"] {
-      background: #e6e6e6; }
+      background: red; }
 
 .tabs-content {
   background: #fefefe;
   transition: all 0.5s ease;
-  border: 1px solid #e6e6e6;
+  border: 1px solid red;
   border-top: 0; }
   .tabs-content.vertical {
-    border: 1px solid #e6e6e6;
+    border: 1px solid red;
     border-left: 0; }
 
 .tabs-panel {
@@ -4033,4 +4033,4 @@ body.is-reveal-open {
   font-family: "small=0em&medium=40em&large=64em&xlarge=75em&xxlarge=90em"; }
 
 body {
-  background: #777; }
+  background-color: #777; }
