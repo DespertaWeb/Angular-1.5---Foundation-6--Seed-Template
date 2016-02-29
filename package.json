@@ -25,5 +25,8 @@
   },
   "author": "ZURB <foundation@zurb.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "express": "^4.13.4"
+  }
 }

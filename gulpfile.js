@@ -42,6 +42,9 @@ gulp.task('scripts', function() {
       bower+'/jquery/dist/jquery.js',
       bower+'/foundation-sites/dist/foundation.js',
       bower+'/what-input/what-input.js',
+      bower+'/angular/angular.min.js',
+      bower+'/angular-ui-router/release/angular-ui-router.min.js',
+
       assets + '/js/app.js'
     ])
     .pipe(concat('app.js'))
