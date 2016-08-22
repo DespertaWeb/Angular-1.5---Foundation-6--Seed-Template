@@ -1,4 +1,4 @@
-# Foundation 6 Starter Template
+# Angular-1.5-&-Foundation-6-seed-Template
 
 
 ### Manual Setup
